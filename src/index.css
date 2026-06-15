@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-    --font-code: "JetBrains Mono";
-    --font-sans: "Space Grotesk";
+    --font-code: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
     --color-*: initial;
     --color-primary: #66dbb2;
     --color-on-primary: #003829;
